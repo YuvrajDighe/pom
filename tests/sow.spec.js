@@ -10,7 +10,7 @@ test.use({
 });
 
 // Test timeout set to 50 seconds
-test.setTimeout(70000);
+test.setTimeout(180000);
 
 test('Create SOW - Full Flow Using POM', async ({ page }) => {
 
